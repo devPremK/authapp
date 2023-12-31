@@ -1,8 +1,8 @@
 import Head from 'next/head'
-
+import Layout from '../../layout/layout'
 export default function Login(){
     return(
-        <div>
+        <Layout>
 
         <Head>
             <title>Login</title>
@@ -10,6 +10,6 @@ export default function Login(){
 
 
             <h1>Login</h1>
-        </div>
+        </Layout>
     )
 }
